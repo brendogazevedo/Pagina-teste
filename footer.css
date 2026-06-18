@@ -5,3 +5,12 @@
     background-color: var(--color-background);
     color: var(--color-text);
 }
+
+
+@media (max-width: 900px) {
+ .footer {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+}

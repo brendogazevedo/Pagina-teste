@@ -15,7 +15,7 @@ img {
     max-width: 100%;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
     .responsivo {
         display: flex;
         flex-direction: column;
@@ -37,5 +37,11 @@ img {
                 object-fit: cover;
             }
         }
+
+        /* .footer {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        } */
     }
 }
