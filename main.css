@@ -1,0 +1,22 @@
+.conteudo-inicial {
+    background-image: url(img/photo-1522202176988-66273c2fd55f.avif);
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+
+    .text-principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        display: block;
+        
+        font-weight: 600;
+        color: var(--color-text);
+        width: 30%;
+        gap: 10px 0;
+        margin-left: 20px;
+    }
+}
+

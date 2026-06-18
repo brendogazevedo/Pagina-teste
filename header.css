@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--color-background);
+
+  img {
+    width: 76px;
+    height: 76px;
+  }
+
+  .menu {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+  }
+
+  a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--color-text);
+
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  header {
+    display: flex;
+    flex-direction: column;
+
+    .menu {
+      padding-block: 20px 8px;
+    }
+  }
+}

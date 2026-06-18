@@ -1,0 +1,109 @@
+.texto-sobre {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: black;
+  color: var(--color-text);
+  padding: 20px;
+
+  h3 {
+    padding-bottom: 10px;
+  }
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background-color: black;
+  padding-bottom: 20px;
+
+  img {
+    height: 180px;
+    width: 180px;
+  }
+
+  p {
+    text-align: center;
+    color: var(--color-text);
+  }
+}
+
+.empresa {
+  display: flex;
+  padding: 20px;
+  background-color: #00272d;
+  color: var(--color-text);
+
+  p {
+    display: block;
+    padding: 10px 50px 0 0;
+    width: 70%;
+  }
+
+  img {
+    height: 400px;
+    width: 900px;
+  }
+}
+
+.contato {
+  background-color: black;
+  color: var(--color-text);
+
+  legend {
+    font-size: 40px;
+  }
+
+  fieldset {
+    border: none;
+  }
+
+  legend {
+    text-align: center;
+    padding-block: 20px;
+  }
+
+  .infos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-self: center;
+    gap: 20px;
+
+    .grid {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      justify-content: center;
+
+      input {
+        border-radius: 10px;
+        padding: 10px;
+      }
+    }
+  }
+
+  /* .area-message {
+      border-radius: 10px;
+      width: 100%;
+      padding-inline: 100px;
+    
+  } */
+
+  .button {
+    justify-self: center;
+    display: block;
+    margin-block: 20px;
+    border-radius: 20px;
+    
+  }
+  
+  a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 200px;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    border-radius: 20px;
+    
+  }
+}

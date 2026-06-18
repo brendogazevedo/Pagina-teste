@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: "Archivo", sans-serif;
+}
+
+:root {
+    --color-text: #bfac8b;
+    --color-background: #134647;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media (max-width: 900px) {
+    .responsivo {
+        display: flex;
+        flex-direction: column;
+        
+        .menu {
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-block: 10px 4px;
+        }
+
+        .cards {
+            flex-wrap: wrap;
+            object-fit: cover;
+        }
+
+        .empresa {
+            img {
+                padding-top: 20px;
+                object-fit: cover;
+            }
+        }
+    }
+}
