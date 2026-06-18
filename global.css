@@ -1,49 +1,52 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 20px;
-    font-family: "Archivo", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: "Archivo", sans-serif;
 }
 
 :root {
-    --color-text: #bfac8b;
-    --color-background: #134647;
+  --color-text: #bfac8b;
+  --color-background: #134647;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 @media (max-width: 800px) {
-    .responsivo {
+  .responsivo {
+    display: flex;
+    flex-direction: column;
+
+    .menu {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-block: 10px 4px;
+    }
+
+    .cards {
+      flex-wrap: wrap;
+      object-fit: cover;
+    }
+
+    .empresa {
+      img {
+        padding-top: 20px;
+        object-fit: cover;
+      }
+    }
+
+    .contato {
+      .infos {
         display: flex;
         flex-direction: column;
-        
-        .menu {
-            flex-wrap: wrap;
-            justify-content: center;
-            padding-block: 10px 4px;
-        }
+      }
 
-        .cards {
-            flex-wrap: wrap;
-            object-fit: cover;
-        }
-
-        .empresa {
-            img {
-                padding-top: 20px;
-                object-fit: cover;
-            }
-        }
-
-        
-
-        /* .footer {
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-        } */
+      a {
+        padding-inline: 100px;
+      }
     }
+  }
 }
