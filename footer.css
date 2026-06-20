@@ -1,16 +1,9 @@
-.footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-    background-color: var(--color-background);
-    color: var(--color-text);
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: var(--color-background);
+  color: var(--color-text);
 }
 
 
-@media (max-width: 900px) {
- .footer {
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-        }
-}

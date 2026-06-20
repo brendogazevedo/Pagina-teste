@@ -1,44 +1,14 @@
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: var(--color-background);
-  width: 100%;
-  /* position: fixed; */
-  
+header span {
+    display: flex;
+    justify-content: center;
+    font: var(--h1);
 
-  img {
-    width: 76px;
-    height: 76px;
-  }
-
-  .menu {
+   
+}
+.menu {
     display: flex;
     gap: 10px;
-    list-style: none;
-    
-  }
+    font: var(--h1);
 
-  a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: var(--color-text);
-
-    &:hover {
-      color: white;
-    }
-  }
 }
 
-@media (max-width: 900px) {
-  header {
-    display: flex;
-    flex-direction: column;
-
-    .menu {
-      padding-block: 20px 8px;
-    }
-  }
-}
