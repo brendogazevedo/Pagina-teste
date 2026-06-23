@@ -22,13 +22,34 @@
   gap: 40px;
   padding-block: 20px;
 
-  img {
+  .card {
+    position: relative;
     width: 180px;
   }
 
-   p {
+  img {
+    width: 180px;
+    height: 100%;
+  }
+
+   a {
     justify-self: center;
     color: var(--color-anime-list);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(20, 20, 20);
+    opacity: 0;
+
+    
+  }
+  a:hover {
+    opacity: 0.5;
   }
 }
 
